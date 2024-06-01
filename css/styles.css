@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+header{
+    background-image: url('../images/Home.jpg');
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+   max-height: 100%;
+    max-width: 100%;
+   font-family: "Poppins", sans-serif;
+
+
+    
+
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    color: #fff;
+
+}
+.brand{
+   
+    font-weight: 600;
+
+}
+.links ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.links ul li{
+    list-style-type: none;
+    margin-left: 15px;
+    padding-bottom: 30px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.links ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.links ul li a:hover{
+color: red;
+}
+
+.user ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.user ul li{
+    list-style-type: none;
+    margin-left: 15px;
+    padding-bottom: 30px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.user ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.user ul li a:hover{
+    color: red;
+    }
+
+.content{
+    padding: 140px;
+    color: #fff;
+    
+}
+.first-content p{
+    padding-bottom: 20px;
+}
+
+.first-content h1{
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.first-content .btn{
+    padding-top: 30px;
+    padding-bottom: 180px;
+}
+
+.first-content .btn button{
+    padding: 10px;
+    background-color: #000000;
+   
+    border-radius: 50px;
+    border: 2px solid #fff;
+    
+}
+.first-content .btn button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.second-content{
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+.second-content p{
+width: 350px;
+}
+
+.cars h1{
+text-align: center;
+font-weight: 600;
+padding: 30px;
+font-size: 40px;
+}
+.cars-content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.cars-left img{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 20px;
+
+} 
+.cars-right p{
+    color: #6e6c6c;
+    margin: 33px;
+    width: 600px;
+   
+}
+.cars button{
+    padding: 30px;
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+    background-color: #000000;
+    font-weight: 500;
+    margin-left: 40%;
+
+}
+.cars button:hover{
+    border: 2px solid red;
+    background-color: #ffffff;
+}
+.cars button a{
+    text-decoration: none;
+    color: #fff;
+}
+.cars button a:hover{
+    color: red;
+}
+.events{
+    margin-top: 20px;
+    background-color: #000000;
+    padding: 20px;
+}
