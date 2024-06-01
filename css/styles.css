@@ -160,3 +160,36 @@ font-size: 40px;
     background-color: #000000;
     padding: 20px;
 }
+.events .main-heading{
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 30px;
+    font-size: 40px;
+
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.cards .card{
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    line-height: 1.5;
+}
+.cards .card h1{
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+.cards .card p{
+    font-weight: 300;
+    color: #6e6c6c;
+}
+.cards .card p span a{
+    text-decoration: none;
+    color:blue;
+}
